@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+			<title>Lukas Jan Milewski Personal Website</title>
+                <meta name="robots" content="index" />
+                <meta name="description" content="This is my personal website" />
+                <meta name="keywords" content="Web designer , webdesignm web design , frontend developer , multimedia designer, graphic designer, grafisk designer , 3d , internship student from europe, 3d art, freelance designer, posters, logos, vector bitmap graphics, junior freelance designer ,
+                                        prywatny freelancer , prywatny grafik komputerowy podkarpackie , grafik komputerowy podkarpackie , freelancer podkarpacke , webdesigner podkarpackie , freelance web designer , grafik do wynajęcia , szukam grafika komputerowego, szukam grafika komputerowego na podkarpaciu , prywatni graficy na podkarpaciu , prywatny grafik komputerowy podkarpacie
+ />
+
+
+                 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                <link rel="Stylesheet" type="text/css" href="css/styles.css" />
+                <link rel="stylesheet" type="text/css" href="css/font-awesome-animation.min.css">
+                <link rel="stylesheet" type="text/css" href="css/mediaQuerries.css" />
+                <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">
+
+                <link rel="shortcut icon" href="img/logo.ico">
+
+                <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+                <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+
+
+
+
+			<script>
+					jQuery(document).ready(function ($) {
+
+						var jssor_1_SlideshowTransitions = [
+
+                            {$Duration:1000,x:-0.1,y:-0.7,$Rotate:0.1,$During:{$Left:[0.6,0.4],$Top:[0.6,0.4],$Rotate:[0.6,0.4]},$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Brother:{$Duration:1000,x:0.2,y:0.5,$Rotate:-0.1,$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2}},
+                                /*
+						  {$Duration:1000,x:0.2,y:-0.1,$Delay:20,$Cols:8,$Rows:4,$Clip:15,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$Jease$.$InWave,$Top:$Jease$.$InWave,$Clip:$Jease$.$OutQuad},$Outside:true,$Round:{$Left:0.8,$Top:2.5}},
+						  {$Duration:1000,x:0.3,y:-0.3,$Delay:80,$Cols:8,$Rows:4,$Clip:15,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$Easing:{$Left:$Jease$.$InJump,$Top:$Jease$.$InJump,$Clip:$Jease$.$OutQuad},$Outside:true,$Round:{$Left:0.8,$Top:2.5}},
+						  {$Duration:1000,x:1,y:0.2,$Delay:30,$Cols:10,$Rows:5,$Clip:15,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$Reverse:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:2050,$Easing:{$Left:$Jease$.$InOutSine,$Top:$Jease$.$OutWave,$Clip:$Jease$.$InOutQuad},$Outside:true,$Round:{$Top:1.3}},
+
+						  {$Duration:1000,$Delay:30,$Cols:8,$Rows:4,$Clip:15,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:2049,$Easing:$Jease$.$OutQuad},
+						  {$Duration:1000,$Delay:80,$Cols:8,$Rows:4,$Clip:15,$SlideOut:true,$Easing:$Jease$.$OutQuad},
+						  {$Duration:1000,y:-1,$Cols:12,$Formation:$JssorSlideshowFormations$.$FormationStraight,$ChessMode:{$Column:12}},
+						  {$Duration:1000,x:-0.2,$Delay:40,$Cols:12,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Assembly:260,$Easing:{$Left:$Jease$.$InOutExpo,$Opacity:$Jease$.$InOutQuad},$Opacity:2,$Outside:true,$Round:{$Top:0.5}},
+						  {$Duration:1000,y:-1,$Delay:60,$Cols:15,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Easing:$Jease$.$OutJump,$Round:{$Top:1.5}}*/
+						];
+
+						var jssor_1_options = {
+						  $AutoPlay: true,
+						  $SlideshowOptions: {
+							$Class: $JssorSlideshowRunner$,
+							$Transitions: jssor_1_SlideshowTransitions,
+							$TransitionsOrder: 1
+						  },
+						  $ArrowNavigatorOptions: {
+							$Class: $JssorArrowNavigator$
+						  },
+						  $BulletNavigatorOptions: {
+							$Class: $JssorBulletNavigator$
+						  }
+						};
+
+						var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+						//responsive code begin
+						//you can remove responsive code if you don't want the slider scales while window resizing
+						function ScaleSlider() {
+							var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+							if (refSize) {
+								refSize = Math.min(refSize, 960);
+								jssor_1_slider.$ScaleWidth(refSize);
+							}
+							else {
+								window.setTimeout(ScaleSlider, 30);
+							}
+						}
+						ScaleSlider();
+						$(window).bind("load", ScaleSlider);
+						$(window).bind("resize", ScaleSlider);
+						$(window).bind("orientationchange", ScaleSlider);
+						//responsive code end
+					});
+		</script>
+
+		<style>
+
+			/* jssor slider bullet navigator skin 01 css */
+			/*
+			.jssorb01 div           (normal)
+			.jssorb01 div:hover     (normal mouseover)
+			.jssorb01 .av           (active)
+			.jssorb01 .av:hover     (active mouseover)
+			.jssorb01 .dn           (mousedown)
+			*/
+			.jssorb01 {
+				position: absolute;
+			}
+			.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+				position: absolute;
+				/* size of bullet elment */
+				width: 12px;
+				height: 12px;
+				filter: alpha(opacity=70);
+				opacity: .7;
+				overflow: hidden;
+				cursor: pointer;
+				border: #000 1px solid;
+			}
+			.jssorb01 div { background-color: gray; }
+			.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+			.jssorb01 .av { background-color: #fff; }
+			.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+			/* jssor slider arrow navigator skin 05 css */
+			/*
+			.jssora05l                  (normal)
+			.jssora05r                  (normal)
+			.jssora05l:hover            (normal mouseover)
+			.jssora05r:hover            (normal mouseover)
+			.jssora05l.jssora05ldn      (mousedown)
+			.jssora05r.jssora05rdn      (mousedown)
+			*/
+			.jssora05l, .jssora05r {
+				display: block;
+				position: absolute;
+				/* size of arrow element */
+				width: 40px;
+				height: 40px;
+				cursor: pointer;
+				background: url('img/a17.png') no-repeat;
+				overflow: hidden;
+			}
+			.jssora05l { background-position: -10px -40px; }
+			.jssora05r { background-position: -70px -40px; }
+			.jssora05l:hover { background-position: -130px -40px; }
+			.jssora05r:hover { background-position: -190px -40px; }
+			.jssora05l.jssora05ldn { background-position: -250px -40px; }
+			.jssora05r.jssora05rdn { background-position: -310px -40px; }
+		</style>
+
+        <style>
+
+            .mainContainer {height:1084px;}
+            footer {margin-top: 0px;}
+        </style>
+	</head>
+	<body>
+		<div class="languageBar">
+			<div class="languageHolder">
+				<div id="en"><a href="#">EN</a></div>
+				<div id="pl">PL</div>
+				<div id="dk">DK</div>
+			</div>
+		</div>
+        <div class="PushNavigation"></div>
+		<div class="navigation">
+			<div class="navigationImage">
+					<div class="navigationBar">
+						<ul>
+						  <li><a class="glow" href="index.html">Home</a></li>
+						  <li><a class="glow" href="skills.html">Skills</a></li>
+						  <li><a class="glow" href="portfolio.html">Portfolio</a></li>
+						  <li><a class="glow" href="aboutme.html">About me</a></li>
+						</ul>
+					</div>
+					<div class="logo"></div>
+				</div>
+		</div>
+        <div id="backgroundDrawings"><img src="img/background-drawings.png"></div>
+		<div class="mainContainer">
+
+				 <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width:960px; height: 450px; overflow: hidden; visibility: hidden; border: 4px solid white; box-shadow: 0px 7px 25px 0px rgba(0, 0, 0, 0.5);">
+					<!-- Loading Screen -->
+					<div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+						<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+						<div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:-4px;width:100%;height:100%;"></div>
+					</div>
+					<div data-u="slides" style="cursor: default; position: relative; top: 0px; left: -4px; width: 960px; height: 480px; overflow: hidden; ">
+						<div data-p="112.50" style="display: none;">
+							<img data-u="image" src="img/sliderImage2.png" />
+							<h3> &nbsp;&nbsp;Photoshop</h3>
+							<h4> &nbsp;&nbsp;&nbsp;Compositions</h4>
+						</div>
+						<div data-p="112.50" style="display: none;">
+							<img data-u="image" src="img/sliderImage.png" />
+							<h3> &nbsp;&nbsp;3d Maya 2016 + LightRoom</h3>
+							<h4> &nbsp;&nbsp;&nbsp;Rendering, modeling, lighting + lightroom</h4>
+						</div>
+						<div data-p="112.50" style="display: none;">
+							<img data-u="image" src="img/sliderImage3.png" />
+							<h3> &nbsp;&nbsp;Photography + Lightroom </h3>
+							<h4> &nbsp;&nbsp;&nbsp;Shot taken in Copenhagen's Festival</h4>
+						</div>
+						<div data-p="112.50" style="display: none;">
+							<img data-u="image" src="img/sliderImage4.png" />
+							<h3> &nbsp;&nbsp;3d Maya 2016 </h3>
+							<h4> &nbsp;&nbsp;&nbsp;Modelling, texturing, rendering</h4>
+						</div>
+					</div>
+					<!-- Bullet Navigator -->
+					<div data-u="navigator" class="jssorb01" style="bottom:111px;right:16px;width: 107px; height: 33px;">
+						<div data-u="prototype" style="width:12px;height:12px;border-radius: 25px;"></div>
+					</div>
+					<!-- Arrow Navigator -->
+					<span data-u="arrowleft" class="jssora05l" style="top:220px;left:8px;width:40px;height:40px;" data-autocenter="2"></span>
+					<span data-u="arrowright" class="jssora05r" style="top:220px;right:8px;width:40px;height:40px;" data-autocenter="2"></span>
+
+
+
+		</div>
+
+				<div class="intrudoction">
+					<div class="intrudoctionLeft">
+						<h1>Be my guest!</h1>
+                            <div class="introductionText">
+
+                                <h3>
+                                    <p>Graphic / Web hybrid with some light front-end skills.
+                                    Started working with graphics in 2013, eager to learn.</p>
+                                    <p>Currently living in: <img src="img/flag.svg" class="flag flag-bg" alt="Bulgaria" /> </p>
+                                    <p>Bulgaria, Sofia</p>
+                                    <p>I always develop, learn, share knowledge and experience.</p>
+                                    <p>Enjoy! ;)</p>
+                                </h3>
+
+                            </div>
+
+					</div>
+					<div class="intrudoctionRight">
+						<div id="myFace"><img src="img/myFace.png"/></div>
+						<div class="tooltip">
+							<p class="tooltiptxt">My pleasure !</p>
+						</div>
+							<h1>Lukas Jan Milewski</h1>
+							<h2> Multimedia Designer</h2>
+					</div>
+				</div>
+
+
+
+
+			<div class="frontPageSkills">
+
+									<!-- HTML Chart -->
+					  <figure class="chart" data-percent="75">
+						<figcaption></figcaption>
+						 <img class="html" src="img/3dicon.png">
+						<svg width="200" height="200">
+						  <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+						</svg>
+
+					  </figure>
+					  <!-- CSS Chart -->
+					  <figure class="chart" data-percent="75">
+						<figcaption></figcaption>
+						<img class="css" src="img/vectoricon.png">
+						<svg width="200" height="200">
+						  <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+						</svg>
+					  </figure>
+
+					  <!-- Javascript Chart -->
+					  <figure class="chart" data-percent="50">
+						<figcaption></figcaption>
+						<img class="javascript" src="img/drawingicon.png">
+						<svg width="200" height="200">
+						  <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+						</svg>
+					  </figure>
+
+					  <!-- Node.js Chart -->
+					  <figure class="chart" data-percent="25">
+						<figcaption></figcaption>
+						<img class="node" src="img/htmlicon.png">
+						<svg width="200" height="200">
+						  <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+						</svg>
+					  </figure>
+					</section>
+					<div class="skillsDescription">
+						<div class="skills3d">
+							<h3>Hobby since 2012  </br>
+							one of the strongest sides.</br>
+							Never stopped enjoying it! </br></h3>
+
+						</div>
+						<div class="skillsVector">
+							<h3>Understanding of Vector and </br>
+							raster graphics, and how</br>
+							to compose them  is crucial</br></h3>
+
+						</div>
+						<div class="skillsDrawings">
+							<h3>Hand drawings helps</br>
+							 me stay in creative mode.</br>
+							 In my opinion, best practice!</br></h3>
+
+
+						</div>
+						<div class="skillsCoding">
+							<h3>HTML4/5 & CSS3 standards  </br>
+							lightweight front-end developer.</br>
+							</h3>
+				</div>
+					</div>
+			</div>
+		</div>
+
+		<div id="backgroundPhotos"><img src="img/background-photographies.png"></div>
+
+		<!-- <div id="containerPusher"></div> -->
+
+		<footer>
+				<div class="footerContainer">
+						<div class="footerGraphic"></div>
+							<div class="footerSides">
+								<div class="footerLeft">
+									<h1>So what i can do ?</h1>
+                                        <h3>
+                                            <i class="fa fa-wrench faa-wrench animated-hover"></i> <a href="" >&#9745</a> Web / Graphic / 3d design <br>
+                                            <i class="fa fa-wrench faa-wrench animated-hover"></i> <a href="" style="">&#9745</a> Raster / Vector Compositions <br>
+                                            <i class="fa fa-wrench faa-wrench animated-hover"></i> <a href="" style="">&#9745</a> Visual Identity</br>
+                                            <i class="fa fa-wrench faa-wrench animated fa-4x"></i> <a href="" style="">&#9745</a> <a href="http://lukasjmilewski.com/portfolio.html" style="">Check my work!</a>
+                                        </h3>
+								</div>
+								<div class="footerRight">
+								<a></a>
+									<h1>Get in touch now!</h1>
+									<h3><i class="fa fa-bell faa-ring animated"></i>&nbsp&nbsp&nbsp <a href="tel:+359876083065">(+359) 876 083 065</a> </br> </h3>
+									<h3><i class="fa fa-envelope faa-horizontal animated"></i>   &nbsp&nbsp    lukasjmilewski@gmail.com </br></h3>
+									<h3><i class="fa fa-trophy faa-tada animated"></i>&nbsp&nbsp&nbsp <a href="http://www.linkedin.com/in/paxidro">LinkedIn profile</a> </h3>
+									<h3><i class="fa fa-circle-o faa-burst animated"></i>  &nbsp&nbsp <a href="skype:avogadra251?call">Get in touch on skype!</a> </br></h3>
+
+								</div>
+							</div>
+				</div>
+				<div class="footerGrey"><h4>COPYRIGHTS 2017 © Lukas Milewski. All rights reserved.</h4></div>
+		</footer>
+        <a href="https://www.worldflagcounter.com/details/drM" style="display:none;"><img src="https://www.worldflagcounter.com/drM/" alt="Flag Counter"></a>
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+			<div class="loader-section section-center"></div>
+		</div>
+
+		<script type="text/javascript" >
+				$(document).ready(function() {
+						setTimeout(function(){
+							$('body').addClass('loaded');
+						}, 3000);
+
+						$("div.logo").css('display', 'none').fadeIn(2500);
+					});
+		</script type="text/javascript">
+		<script>
+			/*$(document).ready(function(){
+
+			});*/
+		</script>
+
+				<!--Preloader 1 test
+			<div id="loading">
+				<div id="loading-center">
+					<div id="loading-center-absolute">
+					<div id="object"></div>
+				</div>
+			</div>
+
+				</div>
+
+			<script type="text/javascript">
+			$(document).ready(function() {
+					$(window).load(function() {
+					$("#loading-center").click(function() {
+					$("#loading").fadeOut(500);
+					})
+			});
+
+			</script>
+			<script type="text/javascript">
+				$(window).load(function() {
+				   $("#loading").fadeOut(500);
+				})
+			</script>
+			-->
+
+
+		</div>
+	</body>
+</html>

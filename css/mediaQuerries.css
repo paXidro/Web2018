@@ -1,0 +1,56 @@
+
+@media screen and (max-width: 1200px) {
+
+    .jssor_1 {
+        min-width:960px;
+    }
+
+    .mainContainer {
+        width: 960px;
+        margin-left: 160px;
+    }
+    /*1px nav phone fix */
+    .navigationImage {
+        margin-top: 14px;
+    }
+    #backgroundDrawings img {
+        position: relative;
+        z-index: -9;
+        width: 1285px;
+        background-repeat: no-repeat;
+    }
+    #backgroundPhotos img {
+        position: relative;
+        z-index: -2;
+        width: 1285px;
+        background-repeat: no-repeat;
+
+    }
+    #backgroundPhotos {
+        top: -300px;
+    }
+    #backgroundDrawings img {
+        position: relative;
+        z-index: -2;
+        width: 1285px;
+
+
+    }
+    .intrudoction, .frontPageSkills {
+        margin-left: -122px;
+    }
+    .loaded #loader-wrapper {
+        height: 1500px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    footer {
+
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
