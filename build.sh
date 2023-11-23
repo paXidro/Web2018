@@ -1,3 +1,3 @@
 # /bin/bash
 
-docker build -t paxidro/website:latest .
+docker buildx build --platform linux/amd64 -t paxidro/website:latest .
